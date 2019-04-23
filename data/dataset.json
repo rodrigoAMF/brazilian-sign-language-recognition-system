@@ -1,0 +1,1929 @@
+{
+  "1": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/38f6a301-5885-4d35-b269-c2ec8500ebf8___a2.png",
+    "annotation": [
+      {
+        "label": [
+          "A"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.34106728538283065,
+            0.5543933054393305
+          ],
+          [
+            0.08352668213457076,
+            0.5543933054393305
+          ],
+          [
+            0.08352668213457076,
+            0.3200836820083682
+          ],
+          [
+            0.34106728538283065,
+            0.3200836820083682
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 431,
+        "imageHeight": 478
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026201000,
+      "last_updated_at": 1556026201000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "2": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/2d40f8f8-4dc0-4a4f-a43a-1b8bce35e31b___a3.png",
+    "annotation": [
+      {
+        "label": [
+          "A"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.08418891170431211,
+            0.26346153846153847
+          ],
+          [
+            0.26283367556468173,
+            0.26346153846153847
+          ],
+          [
+            0.26283367556468173,
+            0.4326923076923077
+          ],
+          [
+            0.08418891170431211,
+            0.4326923076923077
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 522,
+        "imageHeight": 557
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025668000,
+      "last_updated_at": 1556025668000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "3": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/d1e4dfe4-6430-4d7a-8967-54d0f5a5b50f___b1.png",
+    "annotation": [
+      {
+        "label": [
+          "B"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.09836065573770492,
+            0.07172995780590717
+          ],
+          [
+            0.32786885245901637,
+            0.07172995780590717
+          ],
+          [
+            0.32786885245901637,
+            0.4978902953586498
+          ],
+          [
+            0.09836065573770492,
+            0.4978902953586498
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 427,
+        "imageHeight": 474
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026514000,
+      "last_updated_at": 1556026514000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "4": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/f3090101-ce7d-49aa-a400-910d8dc1814e___b2.png",
+    "annotation": [
+      {
+        "label": [
+          "B"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.05639913232104121,
+            0.19367588932806323
+          ],
+          [
+            0.20607375271149675,
+            0.19367588932806323
+          ],
+          [
+            0.20607375271149675,
+            0.4525691699604743
+          ],
+          [
+            0.05639913232104121,
+            0.4525691699604743
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 504,
+        "imageHeight": 553
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026479000,
+      "last_updated_at": 1556026479000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "5": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/095eeca9-ceb9-4f2a-8079-24ec27933336___c1.png",
+    "annotation": [
+      {
+        "label": [
+          "C"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.5444444444444444,
+            0.44421487603305787
+          ],
+          [
+            0.17222222222222222,
+            0.44421487603305787
+          ],
+          [
+            0.17222222222222222,
+            0.1446280991735537
+          ],
+          [
+            0.5444444444444444,
+            0.1446280991735537
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 360,
+        "imageHeight": 484
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026158000,
+      "last_updated_at": 1556026158000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "6": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/03e2afef-a803-403f-88a1-f53bb785ef9d___c2.png",
+    "annotation": [
+      {
+        "label": [
+          "C"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.2095435684647303,
+            0.4153846153846154
+          ],
+          [
+            0.03112033195020747,
+            0.4153846153846154
+          ],
+          [
+            0.03112033195020747,
+            0.23653846153846153
+          ],
+          [
+            0.2095435684647303,
+            0.23653846153846153
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 503,
+        "imageHeight": 542
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025962000,
+      "last_updated_at": 1556025962000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "7": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/d6920fb6-4569-4a07-b9ff-85a45420760c___c3.png",
+    "annotation": [
+      {
+        "label": [
+          "C"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.035196687370600416,
+            0.22529644268774704
+          ],
+          [
+            0.2194616977225673,
+            0.22529644268774704
+          ],
+          [
+            0.2194616977225673,
+            0.43873517786561267
+          ],
+          [
+            0.035196687370600416,
+            0.43873517786561267
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 518,
+        "imageHeight": 542
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026540000,
+      "last_updated_at": 1556026540000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "8": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/4aed9c39-8bb7-4e06-93a0-e2478425c110___d1.png",
+    "annotation": [
+      {
+        "label": [
+          "D"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.3014354066985646,
+            0.4789915966386555
+          ],
+          [
+            0.11244019138755981,
+            0.4789915966386555
+          ],
+          [
+            0.11244019138755981,
+            0.1092436974789916
+          ],
+          [
+            0.3014354066985646,
+            0.1092436974789916
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 418,
+        "imageHeight": 476
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026134000,
+      "last_updated_at": 1556026134000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "9": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/60cd352a-cf21-40cf-8c3c-81c2bce77689___d2.png",
+    "annotation": [
+      {
+        "label": [
+          "D"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.18224638661799414,
+            0.4535515317123792
+          ],
+          [
+            0.032454835973067454,
+            0.4535515317123792
+          ],
+          [
+            0.032454835973067454,
+            0.1963133495471492
+          ],
+          [
+            0.18224638661799414,
+            0.1963133495471492
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 498,
+        "imageHeight": 551
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026032000,
+      "last_updated_at": 1556026032000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "10": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/8000006a-a158-4172-8087-c23eb9913643___e1.png",
+    "annotation": [
+      {
+        "label": [
+          "E"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.4583333333333333,
+            0.5611353711790393
+          ],
+          [
+            0.2361111111111111,
+            0.5611353711790393
+          ],
+          [
+            0.2361111111111111,
+            0.29694323144104806
+          ],
+          [
+            0.4583333333333333,
+            0.29694323144104806
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 432,
+        "imageHeight": 458
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026285000,
+      "last_updated_at": 1556026285000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "11": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/4f3c74e9-c3df-4100-bb7d-53513a942411___e2.png",
+    "annotation": [
+      {
+        "label": [
+          "E"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.1894273127753304,
+            0.43846153846153846
+          ],
+          [
+            0.011013215859030838,
+            0.43846153846153846
+          ],
+          [
+            0.011013215859030838,
+            0.2403846153846154
+          ],
+          [
+            0.1894273127753304,
+            0.2403846153846154
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 480,
+        "imageHeight": 549
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025994000,
+      "last_updated_at": 1556025994000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "12": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/560bf1ff-3841-4765-a571-994c919835e7___f1.png",
+    "annotation": [
+      {
+        "label": [
+          "F"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.36427722255311656,
+            0.5807710860157709
+          ],
+          [
+            0.07774209017901879,
+            0.5807710860157709
+          ],
+          [
+            0.07774209017901879,
+            0.1838412070841289
+          ],
+          [
+            0.36427722255311656,
+            0.1838412070841289
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 427,
+        "imageHeight": 454
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025763000,
+      "last_updated_at": 1556025833000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "13": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/558a01f6-a0b2-4cb6-9782-c2b5027db5fb___f2.png",
+    "annotation": [
+      {
+        "label": [
+          "F"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.16824644549763032,
+            0.12875536480686695
+          ],
+          [
+            0.3909952606635071,
+            0.12875536480686695
+          ],
+          [
+            0.3909952606635071,
+            0.5321888412017167
+          ],
+          [
+            0.16824644549763032,
+            0.5321888412017167
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 422,
+        "imageHeight": 466
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025880000,
+      "last_updated_at": 1556025880000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "14": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/502d96fa-1fff-4c64-9bbb-aed0ac060818___f3.png",
+    "annotation": [
+      {
+        "label": [
+          "F"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.19166666666666668,
+            0.4423076923076923
+          ],
+          [
+            0.01875,
+            0.4423076923076923
+          ],
+          [
+            0.01875,
+            0.2076923076923077
+          ],
+          [
+            0.19166666666666668,
+            0.2076923076923077
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 507,
+        "imageHeight": 549
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026259000,
+      "last_updated_at": 1556026259000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "15": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/8dd7f110-5089-4aaa-bc85-3834e117900c___g1.png",
+    "annotation": [
+      {
+        "label": [
+          "G"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.06601466992665037,
+            0.09090909090909091
+          ],
+          [
+            0.36185819070904646,
+            0.09090909090909091
+          ],
+          [
+            0.36185819070904646,
+            0.4608879492600423
+          ],
+          [
+            0.06601466992665037,
+            0.4608879492600423
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 409,
+        "imageHeight": 473
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026605000,
+      "last_updated_at": 1556026605000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "16": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/dbfe56bd-f972-4d80-9575-4aa483608727___g2.png",
+    "annotation": [
+      {
+        "label": [
+          "G"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.2032520325203252,
+            0.47692307692307695
+          ],
+          [
+            0.03861788617886179,
+            0.47692307692307695
+          ],
+          [
+            0.03861788617886179,
+            0.24615384615384617
+          ],
+          [
+            0.2032520325203252,
+            0.24615384615384617
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 520,
+        "imageHeight": 549
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026122000,
+      "last_updated_at": 1556026122000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "17": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/af6e815f-714a-4482-badc-d2e7a9087e9f___i1.png",
+    "annotation": [
+      {
+        "label": [
+          "I"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.12962962962962962,
+            0.16666666666666666
+          ],
+          [
+            0.44753086419753085,
+            0.16666666666666666
+          ],
+          [
+            0.44753086419753085,
+            0.4977168949771689
+          ],
+          [
+            0.12962962962962962,
+            0.4977168949771689
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 324,
+        "imageHeight": 438
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026492000,
+      "last_updated_at": 1556026492000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "18": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/b48b9bad-6866-4ab4-ac32-837dc8489a58___i2.png",
+    "annotation": [
+      {
+        "label": [
+          "I"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.17703349282296652,
+            0.16263736263736264
+          ],
+          [
+            0.4665071770334928,
+            0.16263736263736264
+          ],
+          [
+            0.4665071770334928,
+            0.4945054945054945
+          ],
+          [
+            0.17703349282296652,
+            0.4945054945054945
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 418,
+        "imageHeight": 455
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025636000,
+      "last_updated_at": 1556025636000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "19": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/253542b4-6375-4758-aff4-df04ea79aa15___i3.png",
+    "annotation": [
+      {
+        "label": [
+          "I"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.032679738562091505,
+            0.2692307692307692
+          ],
+          [
+            0.20915032679738563,
+            0.2692307692307692
+          ],
+          [
+            0.20915032679738563,
+            0.48653846153846153
+          ],
+          [
+            0.032679738562091505,
+            0.48653846153846153
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 480,
+        "imageHeight": 544
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025737000,
+      "last_updated_at": 1556025737000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "20": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/e53b9c12-a899-4576-9acb-e2583b67e95e___k1.png",
+    "annotation": [
+      {
+        "label": [
+          "K"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.18375241779497098,
+            0.4576923076923077
+          ],
+          [
+            0.030947775628626693,
+            0.4576923076923077
+          ],
+          [
+            0.030947775628626693,
+            0.23076923076923078
+          ],
+          [
+            0.18375241779497098,
+            0.23076923076923078
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 543,
+        "imageHeight": 546
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026103000,
+      "last_updated_at": 1556026103000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "21": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/375399ca-47f5-4569-8260-79f3fdc3ad56___l1.png",
+    "annotation": [
+      {
+        "label": [
+          "L"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.6650485436893204,
+            0.5106382978723404
+          ],
+          [
+            0.23058252427184467,
+            0.5106382978723404
+          ],
+          [
+            0.23058252427184467,
+            0.09148936170212765
+          ],
+          [
+            0.6650485436893204,
+            0.09148936170212765
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 412,
+        "imageHeight": 470
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026081000,
+      "last_updated_at": 1556026081000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "22": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/7aef31c9-8d24-487e-8e97-7ca0efd157a9___l2.png",
+    "annotation": [
+      {
+        "label": [
+          "L"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.24735729386892177,
+            0.4846153846153846
+          ],
+          [
+            0.006342494714587738,
+            0.4846153846153846
+          ],
+          [
+            0.006342494714587738,
+            0.25576923076923075
+          ],
+          [
+            0.24735729386892177,
+            0.25576923076923075
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 505,
+        "imageHeight": 555
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026145000,
+      "last_updated_at": 1556026145000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "23": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/4868af97-41d5-443f-959f-836362e29afb___m1.png",
+    "annotation": [
+      {
+        "label": [
+          "M"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.461038961038961,
+            0.5303030303030303
+          ],
+          [
+            0.2077922077922078,
+            0.5303030303030303
+          ],
+          [
+            0.2077922077922078,
+            0.10822510822510822
+          ],
+          [
+            0.461038961038961,
+            0.10822510822510822
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 462,
+        "imageHeight": 462
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026009000,
+      "last_updated_at": 1556026009000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "24": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/433ee025-b557-429f-8fc8-91aabb351060___m2.png",
+    "annotation": [
+      {
+        "label": [
+          "M"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.017582417582417582,
+            0.29446640316205536
+          ],
+          [
+            0.2175824175824176,
+            0.29446640316205536
+          ],
+          [
+            0.2175824175824176,
+            0.5375494071146245
+          ],
+          [
+            0.017582417582417582,
+            0.5375494071146245
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 498,
+        "imageHeight": 553
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026578000,
+      "last_updated_at": 1556026578000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "25": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/2ab43500-04dd-44a2-8aab-015a7da4193e___n2.png",
+    "annotation": [
+      {
+        "label": [
+          "N"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.12873563218390804,
+            0.1032258064516129
+          ],
+          [
+            0.3632183908045977,
+            0.1032258064516129
+          ],
+          [
+            0.3632183908045977,
+            0.5376344086021505
+          ],
+          [
+            0.12873563218390804,
+            0.5376344086021505
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 435,
+        "imageHeight": 465
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026532000,
+      "last_updated_at": 1556026532000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "26": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/f9330aa7-1f25-41ee-ab53-32f0d5e5c812___n3.png",
+    "annotation": [
+      {
+        "label": [
+          "N"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.030181086519114688,
+            0.28076923076923077
+          ],
+          [
+            0.2112676056338028,
+            0.28076923076923077
+          ],
+          [
+            0.2112676056338028,
+            0.5173076923076924
+          ],
+          [
+            0.030181086519114688,
+            0.5173076923076924
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 518,
+        "imageHeight": 542
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025749000,
+      "last_updated_at": 1556025749000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "27": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/06f7b2af-15f6-4d92-affa-dd6488729a61___o1.png",
+    "annotation": [
+      {
+        "label": [
+          "O"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.28117359413202936,
+            0.19301848049281314
+          ],
+          [
+            0.5843520782396088,
+            0.19301848049281314
+          ],
+          [
+            0.5843520782396088,
+            0.4681724845995893
+          ],
+          [
+            0.28117359413202936,
+            0.4681724845995893
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 409,
+        "imageHeight": 487
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026523000,
+      "last_updated_at": 1556026523000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "28": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/920358db-df4d-41bc-9137-854b947940bc___o2.png",
+    "annotation": [
+      {
+        "label": [
+          "O"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.1970649895178197,
+            0.4307692307692308
+          ],
+          [
+            0.041928721174004195,
+            0.4307692307692308
+          ],
+          [
+            0.041928721174004195,
+            0.25576923076923075
+          ],
+          [
+            0.1970649895178197,
+            0.25576923076923075
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 506,
+        "imageHeight": 551
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025867000,
+      "last_updated_at": 1556025867000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "29": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/7f7f7c04-27ff-4ea9-8f21-cf28c57ceaf0___p1.png",
+    "annotation": [
+      {
+        "label": [
+          "P"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.5526315789473685,
+            0.5546038543897216
+          ],
+          [
+            0.13421052631578947,
+            0.5546038543897216
+          ],
+          [
+            0.13421052631578947,
+            0.29978586723768735
+          ],
+          [
+            0.5526315789473685,
+            0.29978586723768735
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 380,
+        "imageHeight": 467
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025952000,
+      "last_updated_at": 1556025952000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "30": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/838a1c47-d4ee-45a4-bfdb-efede4e019b9___p2.png",
+    "annotation": [
+      {
+        "label": [
+          "P"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.2525458248472505,
+            0.46153846153846156
+          ],
+          [
+            0.04073319755600815,
+            0.46153846153846156
+          ],
+          [
+            0.04073319755600815,
+            0.31153846153846154
+          ],
+          [
+            0.2525458248472505,
+            0.31153846153846154
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 521,
+        "imageHeight": 552
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026170000,
+      "last_updated_at": 1556026170000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "31": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/ac6ff649-d24d-417a-a64c-b139a578ff6e___q1.png",
+    "annotation": [
+      {
+        "label": [
+          "Q"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.4638009049773756,
+            0.6080508474576272
+          ],
+          [
+            0.17647058823529413,
+            0.6080508474576272
+          ],
+          [
+            0.17647058823529413,
+            0.23940677966101695
+          ],
+          [
+            0.4638009049773756,
+            0.23940677966101695
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 442,
+        "imageHeight": 472
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026055000,
+      "last_updated_at": 1556026055000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "32": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/37bb3d4f-5880-4c7f-b558-841239e3bb0e___q2.png",
+    "annotation": [
+      {
+        "label": [
+          "Q"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.02079002079002079,
+            0.32806324110671936
+          ],
+          [
+            0.17463617463617465,
+            0.32806324110671936
+          ],
+          [
+            0.17463617463617465,
+            0.5691699604743083
+          ],
+          [
+            0.02079002079002079,
+            0.5691699604743083
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 526,
+        "imageHeight": 553
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026469000,
+      "last_updated_at": 1556026469000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "33": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/33380fa8-7e91-437a-834b-596deb427218___r1.png",
+    "annotation": [
+      {
+        "label": [
+          "R"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.4639423076923077,
+            0.6208333333333333
+          ],
+          [
+            0.17067307692307693,
+            0.6208333333333333
+          ],
+          [
+            0.17067307692307693,
+            0.21458333333333332
+          ],
+          [
+            0.4639423076923077,
+            0.21458333333333332
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 416,
+        "imageHeight": 480
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026019000,
+      "last_updated_at": 1556026019000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "34": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/138b8b86-5041-45a3-9aa7-b58eff5012f2___r2.png",
+    "annotation": [
+      {
+        "label": [
+          "R"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.1830065359477124,
+            0.49230769230769234
+          ],
+          [
+            0.037037037037037035,
+            0.49230769230769234
+          ],
+          [
+            0.037037037037037035,
+            0.2692307692307692
+          ],
+          [
+            0.1830065359477124,
+            0.2692307692307692
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 482,
+        "imageHeight": 546
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025857000,
+      "last_updated_at": 1556025857000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "35": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/a658f3df-f100-4f77-8c91-35e0adc43b32___s2.png",
+    "annotation": [
+      {
+        "label": [
+          "S"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.050200803212851405,
+            0.3269230769230769
+          ],
+          [
+            0.21084337349397592,
+            0.3269230769230769
+          ],
+          [
+            0.21084337349397592,
+            0.49230769230769234
+          ],
+          [
+            0.050200803212851405,
+            0.49230769230769234
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 520,
+        "imageHeight": 543
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025890000,
+      "last_updated_at": 1556025890000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "36": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/ce068f48-69ce-4cff-b8dd-42a4a2b541bc___s3.png",
+    "annotation": [
+      {
+        "label": [
+          "S"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.15934065934065933,
+            0.37044967880085655
+          ],
+          [
+            0.42857142857142855,
+            0.37044967880085655
+          ],
+          [
+            0.42857142857142855,
+            0.6316916488222698
+          ],
+          [
+            0.15934065934065933,
+            0.6316916488222698
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 364,
+        "imageHeight": 467
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026457000,
+      "last_updated_at": 1556026457000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "37": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/69c11324-6345-4c41-b450-f6a7e1b3f7b5___t1.png",
+    "annotation": [
+      {
+        "label": [
+          "T"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.10098522167487685,
+            0.1962809917355372
+          ],
+          [
+            0.41379310344827586,
+            0.1962809917355372
+          ],
+          [
+            0.41379310344827586,
+            0.5661157024793388
+          ],
+          [
+            0.10098522167487685,
+            0.5661157024793388
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 406,
+        "imageHeight": 484
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026570000,
+      "last_updated_at": 1556026570000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "38": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/71c2c14e-77ea-49f1-acaf-49c9a453cd95___t2.png",
+    "annotation": [
+      {
+        "label": [
+          "T"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.02280130293159609,
+            0.5019762845849802
+          ],
+          [
+            0.3485342019543974,
+            0.5019762845849802
+          ],
+          [
+            0.3485342019543974,
+            0.9960474308300395
+          ],
+          [
+            0.02280130293159609,
+            0.9960474308300395
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 694,
+        "imageHeight": 571
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026505000,
+      "last_updated_at": 1556026505000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "39": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/1cd7ac62-f7ee-4d4e-a2f1-66e4029c7dd3___u1.png",
+    "annotation": [
+      {
+        "label": [
+          "U"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.5268542199488491,
+            0.16176470588235295
+          ],
+          [
+            0.2531969309462916,
+            0.16176470588235295
+          ],
+          [
+            0.2531969309462916,
+            0.5840336134453782
+          ],
+          [
+            0.5268542199488491,
+            0.5840336134453782
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 391,
+        "imageHeight": 476
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025607000,
+      "last_updated_at": 1556025607000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "40": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/ef44ae7e-5bf8-4a80-a0e5-9359ddf2484f___u2.png",
+    "annotation": [
+      {
+        "label": [
+          "U"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.16173120728929385,
+            0.5134615384615384
+          ],
+          [
+            0.002277904328018223,
+            0.5134615384615384
+          ],
+          [
+            0.002277904328018223,
+            0.25384615384615383
+          ],
+          [
+            0.16173120728929385,
+            0.25384615384615383
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 473,
+        "imageHeight": 560
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026067000,
+      "last_updated_at": 1556026067000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "41": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/85ba5924-bf9b-4daf-b268-5755c06e5fbe___v1.png",
+    "annotation": [
+      {
+        "label": [
+          "V"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.5259067357512953,
+            0.520746887966805
+          ],
+          [
+            0.17616580310880828,
+            0.520746887966805
+          ],
+          [
+            0.17616580310880828,
+            0.17427385892116182
+          ],
+          [
+            0.5259067357512953,
+            0.17427385892116182
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 386,
+        "imageHeight": 482
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026245000,
+      "last_updated_at": 1556026245000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "42": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/065d3c65-f643-4d58-9680-af429d68931a___w1.png",
+    "annotation": [
+      {
+        "label": [
+          "W"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.4024691358024691,
+            0.6196581196581197
+          ],
+          [
+            0.1728395061728395,
+            0.6196581196581197
+          ],
+          [
+            0.1728395061728395,
+            0.24358974358974358
+          ],
+          [
+            0.4024691358024691,
+            0.24358974358974358
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 405,
+        "imageHeight": 468
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025905000,
+      "last_updated_at": 1556025905000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "43": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/09a8a9b8-fd07-4457-b756-8d9f377463ef___w2.png",
+    "annotation": [
+      {
+        "label": [
+          "W"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.205761316872428,
+            0.49230769230769234
+          ],
+          [
+            0.0205761316872428,
+            0.49230769230769234
+          ],
+          [
+            0.0205761316872428,
+            0.24807692307692308
+          ],
+          [
+            0.205761316872428,
+            0.24807692307692308
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 511,
+        "imageHeight": 546
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026186000,
+      "last_updated_at": 1556026186000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "44": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/fe409cfb-96d9-4043-a3b2-1deaa9872c72___y1.png",
+    "annotation": [
+      {
+        "label": [
+          "Y"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.09068627450980392,
+            0.22083333333333333
+          ],
+          [
+            0.47794117647058826,
+            0.22083333333333333
+          ],
+          [
+            0.47794117647058826,
+            0.5375
+          ],
+          [
+            0.09068627450980392,
+            0.5375
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 408,
+        "imageHeight": 480
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026595000,
+      "last_updated_at": 1556026595000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "45": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/b4394d87-7fe6-43ed-9f39-e94c7cc1e76f___y2.png",
+    "annotation": [
+      {
+        "label": [
+          "Y"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.2845849802371542,
+            0.49615384615384617
+          ],
+          [
+            0.041501976284584984,
+            0.49615384615384617
+          ],
+          [
+            0.041501976284584984,
+            0.3153846153846154
+          ],
+          [
+            0.2845849802371542,
+            0.3153846153846154
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 524,
+        "imageHeight": 538
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026096000,
+      "last_updated_at": 1556026096000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "46": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/b3e9ddff-1c03-435f-8225-8eef89ed6fe6___a1.png",
+    "annotation": [
+      {
+        "label": [
+          "A"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.31842105263157894,
+            0.5370370370370371
+          ],
+          [
+            0.060526315789473685,
+            0.5370370370370371
+          ],
+          [
+            0.060526315789473685,
+            0.2613168724279835
+          ],
+          [
+            0.31842105263157894,
+            0.2613168724279835
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 380,
+        "imageHeight": 486
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556025843000,
+      "last_updated_at": 1556025843000,
+      "sec_taken": 0,
+      "last_updated_by": "Ys0k9dudwrbbb3xnugsZ0KoM5uz1",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  },
+  "47": {
+    "content": "http://com.dataturks.a96-i23.open.s3.amazonaws.com/2c9fafb069e41b4a016a4a57ac0e08f9/fb437e3b-e056-4a98-935d-dfa8408466ea___v2.png",
+    "annotation": [
+      {
+        "label": [
+          "V"
+        ],
+        "shape": "rectangle",
+        "points": [
+          [
+            0.0045662100456621,
+            0.2549407114624506
+          ],
+          [
+            0.1872146118721461,
+            0.2549407114624506
+          ],
+          [
+            0.1872146118721461,
+            0.5177865612648221
+          ],
+          [
+            0.0045662100456621,
+            0.5177865612648221
+          ]
+        ],
+        "notes": "",
+        "imageWidth": 482,
+        "imageHeight": 556
+      }
+    ],
+    "extras": null,
+    "metadata": {
+      "first_done_at": 1556026551000,
+      "last_updated_at": 1556026551000,
+      "sec_taken": 0,
+      "last_updated_by": "s20UzvaMfQUmwVKkXfa0blxQ2QF3",
+      "status": "done",
+      "evaluation": "NONE"
+    }
+  }
+}
