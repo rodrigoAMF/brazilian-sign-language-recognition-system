@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BSLApp</string>
+    <string name="facebook_app_id">587491801736083</string>
+    <string name="fb_login_protocol_scheme">fb587491801736083</string>
 </resources>
