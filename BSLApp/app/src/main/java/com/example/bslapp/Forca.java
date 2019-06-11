@@ -25,32 +25,24 @@ public class Forca extends AppCompatActivity {
         LinkedList<EditText> editTextList = new LinkedList<>();
 
         fillLinearLayout(word, editTextList, layout);
-        Log.d("Debugging", "Before setting letter at position 2");
+
         showLetterInLinearLayout(2, word, editTextList);
-        Log.d("Debugging", "After setting letter at position 4");
         showLetterInLinearLayout(4, word, editTextList);
+        showLetterInLinearLayout(0, word, editTextList);
 
     }
 
     private void fillLinearLayout (String word, LinkedList<EditText> editTextList, LinearLayout layout) {
-
         for (int i = 0; i < word.length(); i++) {
             EditText aux = new EditText(this);
-
             editTextList.add(aux);
             aux.setInputType(InputType.TYPE_NULL);
-
             layout.addView(editTextList.get(i));
         }
-        Log.d("Debugging", "Filled fillLinearLayout");
     }
 
     private void showLetterInLinearLayout (int letterPosition, String word, LinkedList<EditText> editTextList) {
-        Log.d("Debugging", "Inside showLetterInLinearLayout. Its size: "+editTextList.size());
-        editTextList.get(2).setText("a");
-        Log.d("Debugging", "Passou aqui: "+editTextList.size());
-
-        editTextList.get(letterPosition).setText(word.charAt(letterPosition));
+        editTextList.get(letterPosition).setText(Character.toString(word.charAt(letterPosition)));
     }
 
 }
