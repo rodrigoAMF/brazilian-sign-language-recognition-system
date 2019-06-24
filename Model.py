@@ -10,6 +10,8 @@ loader = DatasetLoader()
 loader.load_data()
 loader.show_sample_image()
 
+classes = loader.get_classes()
+
 x_training, x_validation, y_training, y_validation = loader.get_dataset()
 
 NUM_CLASSES = loader.get_number_classes()
@@ -18,7 +20,7 @@ INPUT_SHAPE = loader.get_dataset_shape()
 def convNet():
     # Declara função de otimização da rede
     #optimizer = Nadam(lr=0.003, schedule_decay=0.05)
-    optimizer = Nadam(lr=0.003)
+    optimizer = Nadam(lr=0.003, schedule_decay=0.05)
     # Cria um modelo sequencial
     model = Sequential()
     
@@ -48,8 +50,8 @@ def convNet():
 model = convNet()
 
 training_history = model.fit(x_training, y_training, 
-                             batch_size=32,
-                             epochs=50,
+                             batch_size=64,
+                             epochs=20,
                              verbose=1, validation_data=(x_validation, y_validation))
 
 y_predicted = model.predict(x_validation)
