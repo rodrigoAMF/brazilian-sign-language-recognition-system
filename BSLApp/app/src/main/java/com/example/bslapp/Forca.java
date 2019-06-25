@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.nio.file.Files;
 import java.util.LinkedList;
 import java.util.Random;
 
@@ -18,8 +19,12 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
     private LinearLayout layout;
     private LinkedList<LinkedList<String>> wordAndTip;
     private LinkedList<String> dataList;
+    private LinkedList<String> insertedLetters;
     private TextView tvDica;
-    private Button btnInsere;
+    private EditText etInsert;
+    private Button btnInsert;
+    private String selectedWord;
+    private LinkedList<EditText> editTextList = new LinkedList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,10 +32,13 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_forca);
 
         tvDica = (TextView) findViewById(R.id.tvDica);
-        btnInsere = (Button) findViewById(R.id.btnInsere);
+        etInsert = (EditText) findViewById(R.id.etInsert);
+        btnInsert = (Button) findViewById(R.id.btnInsere);
+        btnInsert.setOnClickListener(this);
 
         wordAndTip = new LinkedList<>();
         dataList = new LinkedList<>();
+        insertedLetters = new LinkedList<>();
 
         dataList.add("Maça");
         dataList.add("Dica: é um alimento rico em fibras.");
@@ -44,16 +52,11 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
 
         LinkedList<String> selectedWordAndTip = pickARandomWord(wordAndTip);
 
-        String word = selectedWordAndTip.get(0);
+        selectedWord = selectedWordAndTip.get(0);
 
         layout = (LinearLayout) findViewById(R.id.linearLayout);
 
-        LinkedList<EditText> editTextList = new LinkedList<>();
-
-        fillLinearLayout(word, editTextList, layout);
-
-        showLetterInLinearLayout(2, word, editTextList);
-        showLetterInLinearLayout(0, word, editTextList);
+        fillLinearLayout(selectedWord, editTextList, layout);
 
         tvDica.setText(selectedWordAndTip.get(1));
 
@@ -69,7 +72,11 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
     }
 
     private void showLetterInLinearLayout (int letterPosition, String word, LinkedList<EditText> editTextList) {
+        System.out.println("Show letter size"+editTextList.size());
+        System.out.println("Valor nessa posicao: "+ editTextList.get(letterPosition));
+
         editTextList.get(letterPosition).setText(Character.toString(word.charAt(letterPosition)));
+        insertedLetters.add(Character.toString(word.charAt(letterPosition)).toUpperCase());
     }
 
     private LinkedList<String> pickARandomWord (LinkedList<LinkedList<String>> wordAndTip) {
@@ -80,11 +87,41 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
         return wordAndTip.get(randomInt);
     }
 
+    private void scorePoint (String selectedWordCapitalized, String etInsertStringCapitalized,  LinkedList<Integer> repeatedLetter) {
+        boolean alreadySetted = false;
+        for (int i=0; i < insertedLetters.size(); i++) {
+            if (insertedLetters.get(i).equals(etInsertStringCapitalized)) {
+                alreadySetted = true;
+            }
+        }
+
+        for (int i = 0; i < selectedWordCapitalized.length(); i++) {
+            if (selectedWordCapitalized.charAt(i) == etInsertStringCapitalized.toCharArray()[0]) {
+                repeatedLetter.add(i);
+            }
+        }
+
+        if (!alreadySetted) {
+            for (int i = 0; i < repeatedLetter.size(); i++) {
+                showLetterInLinearLayout(repeatedLetter.get(i), selectedWord, editTextList);
+            }
+        }
+    }
 
     @Override
     public void onClick(View v) {
-        if (v == btnInsere) {
+        if (v == btnInsert) {
             //abre camera e pega libras
+
+            LinkedList<Integer> repeatedLetter = new LinkedList<>();
+
+            String selectedWordCapitalized = selectedWord.toUpperCase();
+
+            String etInsertStringCapitalized = etInsert.getText().toString().toUpperCase();
+
+            if ((selectedWordCapitalized.contains(etInsertStringCapitalized)) && (!etInsertStringCapitalized.isEmpty())) {
+                scorePoint(selectedWordCapitalized, etInsertStringCapitalized, repeatedLetter);
+            }
         }
     }
 }
