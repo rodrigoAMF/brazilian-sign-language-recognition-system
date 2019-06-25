@@ -1,5 +1,6 @@
 package com.example.bslapp;
 
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputType;
@@ -7,8 +8,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.nio.file.Files;
 import java.util.LinkedList;
@@ -24,7 +27,9 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
     private EditText etInsert;
     private Button btnInsert;
     private String selectedWord;
+    private ImageView imgHead;
     private LinkedList<EditText> editTextList = new LinkedList<>();
+    private int errorCounter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +39,9 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
         tvDica = (TextView) findViewById(R.id.tvDica);
         etInsert = (EditText) findViewById(R.id.etInsert);
         btnInsert = (Button) findViewById(R.id.btnInsere);
+        imgHead = (ImageView) findViewById(R.id.imageView2);
         btnInsert.setOnClickListener(this);
+        errorCounter = 0;
 
         wordAndTip = new LinkedList<>();
         dataList = new LinkedList<>();
@@ -72,9 +79,6 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
     }
 
     private void showLetterInLinearLayout (int letterPosition, String word, LinkedList<EditText> editTextList) {
-        System.out.println("Show letter size"+editTextList.size());
-        System.out.println("Valor nessa posicao: "+ editTextList.get(letterPosition));
-
         editTextList.get(letterPosition).setText(Character.toString(word.charAt(letterPosition)));
         insertedLetters.add(Character.toString(word.charAt(letterPosition)).toUpperCase());
     }
@@ -119,8 +123,32 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
 
             String etInsertStringCapitalized = etInsert.getText().toString().toUpperCase();
 
-            if ((selectedWordCapitalized.contains(etInsertStringCapitalized)) && (!etInsertStringCapitalized.isEmpty())) {
+            if ((selectedWordCapitalized.contains(etInsertStringCapitalized)) && (!etInsertStringCapitalized.isEmpty()) && (errorCounter < 5)) {
                 scorePoint(selectedWordCapitalized, etInsertStringCapitalized, repeatedLetter);
+            } else {
+                errorCounter++;
+                System.out.println("Usuario errou erroCOunter "+errorCounter);
+
+                Toast.makeText(getApplicationContext(), "Não existe essa letra.", Toast.LENGTH_SHORT).show();
+
+                switch (errorCounter) {
+                    case 1:
+                        imgHead.setImageResource(R.drawable.forcacabeca);
+                        break;
+                    case 2:
+                        imgHead.setImageResource(R.drawable.forcatronco);
+                        break;
+                    case 3:
+                        imgHead.setImageResource(R.drawable.forcabracos);
+                        break;
+                    case 4:
+                        imgHead.setImageResource(R.drawable.forcacompleta);
+                        break;
+                    default:
+                        Toast.makeText(getApplicationContext(), "Fim de jogo. Você perdeu.", Toast.LENGTH_SHORT).show();
+                        break;
+
+                }
             }
         }
     }
