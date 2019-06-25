@@ -29,7 +29,7 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
     private String selectedWord;
     private ImageView imgHead;
     private LinkedList<EditText> editTextList = new LinkedList<>();
-    private int errorCounter;
+    private int errorCounter, strikeCounter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +42,7 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
         imgHead = (ImageView) findViewById(R.id.imageView2);
         btnInsert.setOnClickListener(this);
         errorCounter = 0;
+        strikeCounter = 0;
 
         wordAndTip = new LinkedList<>();
         dataList = new LinkedList<>();
@@ -93,6 +94,8 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
 
     private void scorePoint (String selectedWordCapitalized, String etInsertStringCapitalized,  LinkedList<Integer> repeatedLetter) {
         boolean alreadySetted = false;
+
+
         for (int i=0; i < insertedLetters.size(); i++) {
             if (insertedLetters.get(i).equals(etInsertStringCapitalized)) {
                 alreadySetted = true;
@@ -106,8 +109,11 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
         }
 
         if (!alreadySetted) {
+
             for (int i = 0; i < repeatedLetter.size(); i++) {
                 showLetterInLinearLayout(repeatedLetter.get(i), selectedWord, editTextList);
+                strikeCounter++;
+
             }
         }
     }
@@ -123,33 +129,39 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
 
             String etInsertStringCapitalized = etInsert.getText().toString().toUpperCase();
 
-            if ((selectedWordCapitalized.contains(etInsertStringCapitalized)) && (!etInsertStringCapitalized.isEmpty()) && (errorCounter < 5)) {
-                scorePoint(selectedWordCapitalized, etInsertStringCapitalized, repeatedLetter);
-            } else {
-                errorCounter++;
-                System.out.println("Usuario errou erroCOunter "+errorCounter);
+            System.out.println("Strike counter "+strikeCounter+" select lenght "+selectedWordCapitalized.length());
 
-                Toast.makeText(getApplicationContext(), "Não existe essa letra.", Toast.LENGTH_SHORT).show();
+            if (strikeCounter < selectedWordCapitalized.length()) {
+                if ((selectedWordCapitalized.contains(etInsertStringCapitalized)) && (!etInsertStringCapitalized.isEmpty()) &&
+                        (errorCounter < 5)) {
+                    scorePoint(selectedWordCapitalized, etInsertStringCapitalized, repeatedLetter);
+                } else {
+                    errorCounter++;
+                    System.out.println("Usuario errou erroCOunter "+errorCounter);
 
-                switch (errorCounter) {
-                    case 1:
-                        imgHead.setImageResource(R.drawable.forcacabeca);
-                        break;
-                    case 2:
-                        imgHead.setImageResource(R.drawable.forcatronco);
-                        break;
-                    case 3:
-                        imgHead.setImageResource(R.drawable.forcabracos);
-                        break;
-                    case 4:
-                        imgHead.setImageResource(R.drawable.forcacompleta);
-                        break;
-                    default:
-                        Toast.makeText(getApplicationContext(), "Fim de jogo. Você perdeu.", Toast.LENGTH_SHORT).show();
-                        break;
+                    Toast.makeText(getApplicationContext(), "Não existe essa letra.", Toast.LENGTH_SHORT).show();
 
+                    switch (errorCounter) {
+                        case 1:
+                            imgHead.setImageResource(R.drawable.forcacabeca);
+                            break;
+                        case 2:
+                            imgHead.setImageResource(R.drawable.forcatronco);
+                            break;
+                        case 3:
+                            imgHead.setImageResource(R.drawable.forcabracos);
+                            break;
+                        case 4:
+                            imgHead.setImageResource(R.drawable.forcacompleta);
+                            break;
+                        default:
+                            Toast.makeText(getApplicationContext(), "Fim de jogo. Você perdeu.", Toast.LENGTH_SHORT).show();
+                            break;
+
+                    }
                 }
             }
+
         }
     }
 }
