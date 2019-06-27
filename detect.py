@@ -11,7 +11,6 @@ loader.load_data()
 
 classes = loader.get_classes()
 
-
 # Carregando arquitetura da rede
 with open('model/model_architecture.json', 'r') as f:
     model = model_from_json(f.read())
@@ -44,9 +43,8 @@ def readWebcamImage(width=320, height=180):
     
     return image
 
-def realizarPredicao():
+def realizarPredicao(image):
     # Lê imagem da webcam
-    image = readWebcamImage()
     HEIGHT = image.shape[0]
     WIDTH = image.shape[1]
 
@@ -66,15 +64,15 @@ def realizarPredicao():
     resized_image = cv2.resize(crop_img, (50, 50))
     img_gray = cv2.cvtColor(resized_image, cv2.COLOR_RGB2GRAY)
     im_flipped = cv2.flip( img_gray, 1)
-    plt.imshow(im_flipped, cmap='gray', vmin=0, vmax=255)
-    plt.show()
+    #plt.imshow(im_flipped, cmap='gray', vmin=0, vmax=255)
+    #plt.show()
     im_flipped = im_flipped.reshape((1,50,50,1))
     y_predicted = model.predict(im_flipped)
     y_predicted = np.argmax(y_predicted, axis=1)[0]
     classeImagem = classes[y_predicted]
-    print(classeImagem)
+    return classeImagem
 
-realizarPredicao()
+#realizarPredicao(readWebcamImage())
 
 #cv2.rectangle(image_np, p1, p2, (77, 255, 9), 3, 1)
 
