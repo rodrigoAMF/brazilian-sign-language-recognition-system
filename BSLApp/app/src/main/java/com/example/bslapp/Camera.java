@@ -1,6 +1,7 @@
 package com.example.bslapp;
 
 import android.Manifest;
+import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -19,6 +20,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
+
 import com.loopj.android.http.*;
 
 import java.io.ByteArrayOutputStream;
@@ -95,11 +98,29 @@ public class Camera extends AppCompatActivity implements View.OnClickListener {
             // Continue only if the File was successfully created
             if (photoFile != null) {
                 Uri photoURI = FileProvider.getUriForFile(this,
-                        "com.example.bslapp",
+                        "com.example.android.fileprovider",
                         photoFile);
+                imageUri = photoURI;
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO);
             }
+        }
+    }
+
+    public void grabImage(ImageView imageView)
+    {
+        this.getContentResolver().notifyChange(imageUri, null);
+        ContentResolver cr = this.getContentResolver();
+        Bitmap bitmap;
+        try
+        {
+            bitmap = android.provider.MediaStore.Images.Media.getBitmap(cr, imageUri);
+            imageView.setImageBitmap(bitmap);
+        }
+        catch (Exception e)
+        {
+            Toast.makeText(this, "Failed to load", Toast.LENGTH_SHORT).show();
+            Log.d("Erro", "Failed to load", e);
         }
     }
 
@@ -107,20 +128,25 @@ public class Camera extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
+
+        System.out.println("img uri "+imageUri);
+
+        grabImage(imgCamera);
+
+        /*super.onActivityResult(requestCode, resultCode, data);
         Bitmap bitmap = (Bitmap) data.getExtras().get("data");
         imgCamera.setImageBitmap(bitmap);
         Log.w("POST", "Começando..");
         AsyncHttpClient client = new AsyncHttpClient();
         RequestParams params = new RequestParams();
         params.put("key", "value");
-        params.put("more", "data");
+        params.put("more", "data");*/
         /*if(isStoragePermissionGranted()){
             SaveImage(bitmap);
         }
         File sdcard = Environment.getExternalStorageDirectory();
         File file = new File(sdcard,"/saved_images/bslapp.jpg");*/
-        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        /*ByteArrayOutputStream stream = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.PNG, 90, stream); //compress to which format you want.
         byte [] byte_arr = stream.toByteArray();
         String image_str = Base64.encodeToString(byte_arr, Base64.DEFAULT);
@@ -143,7 +169,7 @@ public class Camera extends AppCompatActivity implements View.OnClickListener {
                 Log.w("POST", "onFailure: " + response);
                 Log.w("POST", String.valueOf(statusCode));
             }
-        });
+        });*/
     }
 
     private void SaveImage(Bitmap finalBitmap) {

@@ -4,7 +4,9 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-feature android:name="android.hardware.camera"
+
+    <uses-feature
+        android:name="android.hardware.camera"
         android:required="true" />
 
     <application
@@ -14,7 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Camera"></activity>
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/filepaths" />
+
+        <activity android:name=".Camera" />
         <activity android:name=".Aprender" />
         <activity android:name=".Forca">
             <intent-filter>
@@ -30,7 +36,7 @@
             android:value="@string/facebook_app_id" />
 
         <activity android:name=".Jogar" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
@@ -48,7 +54,6 @@
             </intent-filter>
         </activity>
 
-
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.example.android.fileprovider"
@@ -62,7 +67,3 @@
     </application>
 
 </manifest>
-<!--
-<paths xmlns:android="http://schemas.android.com/apk/res/android">
-<external-path name="my_images" path="Android/data/com.example.bslapp/files/Pictures" />
-</paths>-->
