@@ -3,4 +3,5 @@
     <string name="facebook_app_id">587491801736083</string>
     <string name="fb_login_protocol_scheme">fb587491801736083</string>
     <string name="title_activity_forca">Forca</string>
+    <string name="btnTirarFoto">Tirar Foto</string>
 </resources>

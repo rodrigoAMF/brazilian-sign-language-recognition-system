@@ -1,5 +1,6 @@
 package com.example.bslapp;
 
+import android.content.Intent;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,7 +26,7 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
     private LinkedList<String> insertedLetters;
     private TextView tvDica;
     private EditText etInsert;
-    private Button btnInsert;
+    private Button btnInsert, btnCamera;
     private String selectedWord;
     private ImageView imgHead;
     private LinkedList<EditText> editTextList = new LinkedList<>();
@@ -39,8 +40,10 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
         tvDica = (TextView) findViewById(R.id.tvDica);
         etInsert = (EditText) findViewById(R.id.etInsert);
         btnInsert = (Button) findViewById(R.id.btnInsere);
+        btnCamera = (Button) findViewById(R.id.btnCamera);
         imgHead = (ImageView) findViewById(R.id.imageView2);
         btnInsert.setOnClickListener(this);
+        btnCamera.setOnClickListener(this);
         errorCounter = 0;
         strikeCounter = 0;
 
@@ -162,6 +165,10 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
                 }
             }
 
+        }
+        else if(v == btnCamera){
+            Intent i = new Intent(this, Camera.class);
+            this.startActivity(i);
         }
     }
 }
