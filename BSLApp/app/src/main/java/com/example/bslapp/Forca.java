@@ -132,15 +132,12 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
 
             String etInsertStringCapitalized = etInsert.getText().toString().toUpperCase();
 
-            System.out.println("Strike counter "+strikeCounter+" select lenght "+selectedWordCapitalized.length());
-
             if (strikeCounter < selectedWordCapitalized.length()) {
                 if ((selectedWordCapitalized.contains(etInsertStringCapitalized)) && (!etInsertStringCapitalized.isEmpty()) &&
                         (errorCounter < 5)) {
                     scorePoint(selectedWordCapitalized, etInsertStringCapitalized, repeatedLetter);
                 } else {
                     errorCounter++;
-                    System.out.println("Usuario errou erroCOunter "+errorCounter);
 
                     Toast.makeText(getApplicationContext(), "Não existe essa letra.", Toast.LENGTH_SHORT).show();
 

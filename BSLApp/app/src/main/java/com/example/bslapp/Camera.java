@@ -1,11 +1,9 @@
 package com.example.bslapp;
 
 import android.Manifest;
-import android.annotation.TargetApi;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
@@ -21,17 +19,14 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 import com.loopj.android.http.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.nio.IntBuffer;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Random;
+import java.util.Date;
 
 import cz.msebera.android.httpclient.Header;
 
@@ -45,8 +40,8 @@ public class Camera extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(policy);
+        /*StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);*/
 
         setContentView(R.layout.activity_camera);
         btnTirarFoto = (Button) findViewById(R.id.btnTirarFoto);
@@ -57,8 +52,11 @@ public class Camera extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         if(v ==  btnTirarFoto){
-            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            startActivityForResult(intent, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);
+            /*Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivityForResult(intent, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);*/
+
+            dispatchTakePictureIntent();
+
         }
     }
 
@@ -92,12 +90,12 @@ public class Camera extends AppCompatActivity implements View.OnClickListener {
                 photoFile = createImageFile();
             } catch (IOException ex) {
                 // Error occurred while creating the File
-
+                System.out.println("Vish deu ruim mano");
             }
             // Continue only if the File was successfully created
             if (photoFile != null) {
                 Uri photoURI = FileProvider.getUriForFile(this,
-                        "com.example.android.fileprovider",
+                        "com.example.bslapp",
                         photoFile);
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO);
