@@ -31,7 +31,11 @@
             android:layout_height="wrap_content"
             android:layout_margin="50sp"
             android:layout_weight="1"
-            android:text="@string/btnTirarFoto" />
+            android:text="@string/btnTirarFoto"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
 </LinearLayout>
