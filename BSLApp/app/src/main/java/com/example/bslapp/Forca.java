@@ -155,11 +155,12 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
                             imgHead.setImageResource(R.drawable.forcacompleta);
                             break;
                         default:
-                            Toast.makeText(getApplicationContext(), "Fim de jogo. Você perdeu.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Fim de jogo. Você perdeu.", Toast.LENGTH_LONG).show();
                             break;
-
                     }
                 }
+            } else {
+                Toast.makeText(getApplicationContext(), "Fim de jogo. Você ganhou.", Toast.LENGTH_LONG).show();
             }
 
         }
