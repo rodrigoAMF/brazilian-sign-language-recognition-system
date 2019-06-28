@@ -1,5 +1,6 @@
 package com.example.bslapp;
 
+import android.app.Dialog;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -55,6 +56,7 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
     protected static final int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 0;
     private Uri imageUri;
     String currentPhotoPath;
+    private Dialog myDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +70,7 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
         imgHead = (ImageView) findViewById(R.id.imageView2);
         btnInsert.setOnClickListener(this);
         btnCamera.setOnClickListener(this);
+        myDialog = new Dialog(this);
         errorCounter = 0;
         strikeCounter = 0;
 
@@ -297,5 +300,10 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
         Matrix matrix = new Matrix();
         matrix.postRotate(angle);
         return Bitmap.createBitmap(source, 0, 0, source.getWidth(), source.getHeight(), matrix, true);
+    }
+
+    public void showPopup () {
+        myDialog.setContentView(R.layout.custompopup);
+
     }
 }
