@@ -103,6 +103,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etInsert"
         android:text="Camera"
+        android:elevation="10dp"
         android:textSize="20sp"
         android:textColor="#FFFFFF"
         android:background="@drawable/custom_button"
