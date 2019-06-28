@@ -31,6 +31,7 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
     private ImageView imgHead;
     private LinkedList<EditText> editTextList = new LinkedList<>();
     private int errorCounter, strikeCounter;
+    private char[] classes = new char[3];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

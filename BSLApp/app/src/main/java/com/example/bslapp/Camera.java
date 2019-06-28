@@ -5,6 +5,7 @@ import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.graphics.Matrix;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
@@ -107,11 +108,11 @@ public class Camera extends AppCompatActivity implements View.OnClickListener {
         }
     }
 
-    public void grabImage(ImageView imageView)
+    public Bitmap grabImage(ImageView imageView)
     {
         this.getContentResolver().notifyChange(imageUri, null);
         ContentResolver cr = this.getContentResolver();
-        Bitmap bitmap;
+        Bitmap bitmap = null;
         try
         {
             bitmap = android.provider.MediaStore.Images.Media.getBitmap(cr, imageUri);
@@ -122,6 +123,7 @@ public class Camera extends AppCompatActivity implements View.OnClickListener {
             Toast.makeText(this, "Failed to load", Toast.LENGTH_SHORT).show();
             Log.d("Erro", "Failed to load", e);
         }
+        return bitmap;
     }
 
 
@@ -131,29 +133,20 @@ public class Camera extends AppCompatActivity implements View.OnClickListener {
 
         System.out.println("img uri "+imageUri);
 
-        grabImage(imgCamera);
+        Bitmap bitmap = grabImage(imgCamera);
+        bitmap = RotateBitmap(bitmap, 90.0f);
 
-        /*super.onActivityResult(requestCode, resultCode, data);
-        Bitmap bitmap = (Bitmap) data.getExtras().get("data");
-        imgCamera.setImageBitmap(bitmap);
         Log.w("POST", "Começando..");
         AsyncHttpClient client = new AsyncHttpClient();
         RequestParams params = new RequestParams();
-        params.put("key", "value");
-        params.put("more", "data");*/
-        /*if(isStoragePermissionGranted()){
-            SaveImage(bitmap);
-        }
-        File sdcard = Environment.getExternalStorageDirectory();
-        File file = new File(sdcard,"/saved_images/bslapp.jpg");*/
-        /*ByteArrayOutputStream stream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.PNG, 90, stream); //compress to which format you want.
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream); //compress to which format you want.
         byte [] byte_arr = stream.toByteArray();
         String image_str = Base64.encodeToString(byte_arr, Base64.DEFAULT);
         params.put("image", image_str);
         Log.w("POST", "Parametros setados..");
 
-        client.post("http://192.168.0.139:5000", params, new AsyncHttpResponseHandler() {
+        client.post("http://192.168.43.110:5000", params, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] response) {
                 // called when response HTTP status is "200 OK"
@@ -169,7 +162,14 @@ public class Camera extends AppCompatActivity implements View.OnClickListener {
                 Log.w("POST", "onFailure: " + response);
                 Log.w("POST", String.valueOf(statusCode));
             }
-        });*/
+        });
+    }
+
+    public static Bitmap RotateBitmap(Bitmap source, float angle)
+    {
+        Matrix matrix = new Matrix();
+        matrix.postRotate(angle);
+        return Bitmap.createBitmap(source, 0, 0, source.getWidth(), source.getHeight(), matrix, true);
     }
 
     private void SaveImage(Bitmap finalBitmap) {

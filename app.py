@@ -21,7 +21,6 @@ def index():
     #npimg = np.fromstring(filestr, np.uint8)
     # convert numpy array to image
     #img = cv2.imdecode(npimg, cv2.IMREAD_COLOR)
-    jsonObj = {}
     #jsonObj['status'] = 200
     #tamanho_tabuleiro = request.args.get('tamanho_tabuleiro')
 
@@ -29,10 +28,13 @@ def index():
     #filename = 'some_image.jpg'  # I assume you have a way of picking unique filenames
     #with open(filename, 'wb') as f:
     #    f.write(imgdata)
+    jsonObj = {}
+    imagem = stringToRGB(request.form['image'])
+    classes = realizarPredicao(imagem)
+    jsonObj['classes'] = classes
+    cv2.imwrite('imagem.png', imagem)
 
-    image = stringToRGB(request.form['image'])
-
-    return realizarPredicao(image)
+    return json.dumps(jsonObj)
 
 def stringToRGB(base64_string):
     imgdata = base64.b64decode(str(base64_string))
@@ -41,4 +43,4 @@ def stringToRGB(base64_string):
 
 if __name__ == "__main__":
     #app.run()
-    app.run(host='192.168.0.139')
+    app.run(host='192.168.43.110')
