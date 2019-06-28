@@ -57,6 +57,14 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
     private Uri imageUri;
     String currentPhotoPath;
     private Dialog myDialog;
+    private LinearLayout idLetra1;
+    private LinearLayout idLetra2;
+    private LinearLayout idLetra3;
+    private TextView idLetra1Txt;
+    private TextView idLetra2Txt;
+    private TextView idLetra3Txt;
+    private String[] stringVet = new String[3];
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +72,7 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_forca);
 
         tvDica = (TextView) findViewById(R.id.tvDica);
+
         etInsert = (EditText) findViewById(R.id.etInsert);
         btnInsert = (Button) findViewById(R.id.btnInsere);
         btnCamera = (Button) findViewById(R.id.btnCamera);
@@ -159,7 +168,7 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
 
             String etInsertStringCapitalized = etInsert.getText().toString().toUpperCase();
 
-            if (strikeCounter < selectedWordCapitalized.length()) {
+            if (strikeCounter < selectedWordCapitalized.length()-1) {
                 if ((selectedWordCapitalized.contains(etInsertStringCapitalized)) && (!etInsertStringCapitalized.isEmpty()) &&
                         (errorCounter < 5)) {
                     scorePoint(selectedWordCapitalized, etInsertStringCapitalized, repeatedLetter);
@@ -192,7 +201,24 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
 
         }
         else if(v == btnCamera){
-            dispatchTakePictureIntent();
+            //dispatchTakePictureIntent();
+            String[] str = new String[3];
+
+            str[0] = "A";
+            str[1] = "E";
+            str[2] = "T";
+
+            showPopup(str);
+
+        } else if (v == idLetra1) {
+            etInsert.setText(stringVet[0]);
+            myDialog.dismiss();
+        }else if (v == idLetra2) {
+            etInsert.setText(stringVet[1]);
+            myDialog.dismiss();
+        }else if (v == idLetra3) {
+            etInsert.setText(stringVet[2]);
+            myDialog.dismiss();
         }
     }
 
@@ -302,8 +328,28 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
         return Bitmap.createBitmap(source, 0, 0, source.getWidth(), source.getHeight(), matrix, true);
     }
 
-    public void showPopup () {
+    public void showPopup (String[] vet) {
+        System.out.println("chamoou");
         myDialog.setContentView(R.layout.custompopup);
 
+        stringVet = vet;
+
+        idLetra1Txt = (TextView) myDialog.findViewById(R.id.idLetra1Texto);
+        idLetra2Txt = (TextView) myDialog.findViewById(R.id.idLetra2Texto);
+        idLetra3Txt = (TextView) myDialog.findViewById(R.id.idLetra3Texto);
+
+        idLetra1 = (LinearLayout) myDialog.findViewById(R.id.idLetra1);
+        idLetra2 = (LinearLayout) myDialog.findViewById(R.id.idLetra2);
+        idLetra3 = (LinearLayout) myDialog.findViewById(R.id.idLetra3);
+
+        idLetra1Txt.setText(vet[0]);
+        idLetra2Txt.setText(vet[1]);
+        idLetra3Txt.setText(vet[2]);
+
+        idLetra1.setOnClickListener(this);
+        idLetra2.setOnClickListener(this);
+        idLetra3.setOnClickListener(this);
+
+        myDialog.show();
     }
 }

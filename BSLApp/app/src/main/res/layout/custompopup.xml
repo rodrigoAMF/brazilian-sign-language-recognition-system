@@ -15,50 +15,55 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
+            android:id="@+id/idLetra1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
             android:background="@color/orange"
             android:clickable="true"
             android:gravity="center"
-            android:orientation="vertical"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="100dp">
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/idLetra1"
+                android:id="@+id/idLetra1Texto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Letra 1"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </LinearLayout>
+
         <LinearLayout
+            android:id="@+id/idLetra2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
             android:background="@color/green"
             android:clickable="true"
             android:gravity="center"
-            android:orientation="vertical"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="100dp">
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/idLetra2"
+                android:id="@+id/idLetra2Texto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Letra 2"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </LinearLayout>
+
         <LinearLayout
+            android:id="@+id/idLetra3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
             android:background="@color/blueLight"
             android:clickable="true"
             android:gravity="center"
-            android:orientation="vertical"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="100dp">
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/idLetra3"
+                android:id="@+id/idLetra3Texto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Letra 3"
@@ -66,15 +71,5 @@
                 android:textSize="18sp" />
         </LinearLayout>
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btnfollow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Escolher"
-        android:layout_marginTop="25dp"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/custom_button"
-        android:textColor="@color/white"/>
 
 </LinearLayout>
