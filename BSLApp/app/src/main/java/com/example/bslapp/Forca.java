@@ -196,6 +196,7 @@ public class Forca extends AppCompatActivity implements View.OnClickListener {
                     }
                 }
             } else {
+                scorePoint(selectedWordCapitalized, etInsertStringCapitalized, repeatedLetter);
                 Toast.makeText(getApplicationContext(), "Fim de jogo. Você ganhou.", Toast.LENGTH_LONG).show();
             }
 
